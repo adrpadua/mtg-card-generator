@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C2D5F61CEA6E8E00D75383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5F51CEA6E8E00D75383 /* AppDelegate.swift */; };
+		A0C2D5F81CEA6E8E00D75383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5F71CEA6E8E00D75383 /* ViewController.swift */; };
+		A0C2D5FB1CEA6E8E00D75383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C2D5F91CEA6E8E00D75383 /* Main.storyboard */; };
+		A0C2D5FE1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5FC1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodeld */; };
+		A0C2D6001CEA6E8E00D75383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C2D5FF1CEA6E8E00D75383 /* Assets.xcassets */; };
+		A0C2D6031CEA6E8E00D75383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C2D6011CEA6E8E00D75383 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0C2D5F21CEA6E8E00D75383 /* mtg-card-generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mtg-card-generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C2D5F51CEA6E8E00D75383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0C2D5F71CEA6E8E00D75383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0C2D5FA1CEA6E8E00D75383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C2D5FD1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mtg_card_generator.xcdatamodel; sourceTree = "<group>"; };
+		A0C2D5FF1CEA6E8E00D75383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C2D6021CEA6E8E00D75383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0C2D6041CEA6E8E00D75383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C2D5EF1CEA6E8E00D75383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C2D5E91CEA6E8E00D75383 = {
+			isa = PBXGroup;
+			children = (
+				A0C2D5F41CEA6E8E00D75383 /* mtg-card-generator */,
+				A0C2D5F31CEA6E8E00D75383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C2D5F31CEA6E8E00D75383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D5F21CEA6E8E00D75383 /* mtg-card-generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C2D5F41CEA6E8E00D75383 /* mtg-card-generator */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2D5F51CEA6E8E00D75383 /* AppDelegate.swift */,
+				A0C2D5F71CEA6E8E00D75383 /* ViewController.swift */,
+				A0C2D5F91CEA6E8E00D75383 /* Main.storyboard */,
+				A0C2D5FF1CEA6E8E00D75383 /* Assets.xcassets */,
+				A0C2D6011CEA6E8E00D75383 /* LaunchScreen.storyboard */,
+				A0C2D6041CEA6E8E00D75383 /* Info.plist */,
+				A0C2D5FC1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodeld */,
+			);
+			path = "mtg-card-generator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C2D5F11CEA6E8E00D75383 /* mtg-card-generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C2D6071CEA6E8E00D75383 /* Build configuration list for PBXNativeTarget "mtg-card-generator" */;
+			buildPhases = (
+				A0C2D5EE1CEA6E8E00D75383 /* Sources */,
+				A0C2D5EF1CEA6E8E00D75383 /* Frameworks */,
+				A0C2D5F01CEA6E8E00D75383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mtg-card-generator";
+			productName = "mtg-card-generator";
+			productReference = A0C2D5F21CEA6E8E00D75383 /* mtg-card-generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C2D5EA1CEA6E8E00D75383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adrian Padua";
+				TargetAttributes = {
+					A0C2D5F11CEA6E8E00D75383 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A0C2D5ED1CEA6E8E00D75383 /* Build configuration list for PBXProject "mtg-card-generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C2D5E91CEA6E8E00D75383;
+			productRefGroup = A0C2D5F31CEA6E8E00D75383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C2D5F11CEA6E8E00D75383 /* mtg-card-generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C2D5F01CEA6E8E00D75383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C2D6031CEA6E8E00D75383 /* LaunchScreen.storyboard in Resources */,
+				A0C2D6001CEA6E8E00D75383 /* Assets.xcassets in Resources */,
+				A0C2D5FB1CEA6E8E00D75383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C2D5EE1CEA6E8E00D75383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C2D5F81CEA6E8E00D75383 /* ViewController.swift in Sources */,
+				A0C2D5F61CEA6E8E00D75383 /* AppDelegate.swift in Sources */,
+				A0C2D5FE1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0C2D5F91CEA6E8E00D75383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C2D5FA1CEA6E8E00D75383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C2D6011CEA6E8E00D75383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C2D6021CEA6E8E00D75383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C2D6051CEA6E8E00D75383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C2D6061CEA6E8E00D75383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C2D6081CEA6E8E00D75383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mtg-card-generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrpadua.mtg-card-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0C2D6091CEA6E8E00D75383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mtg-card-generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrpadua.mtg-card-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C2D5ED1CEA6E8E00D75383 /* Build configuration list for PBXProject "mtg-card-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C2D6051CEA6E8E00D75383 /* Debug */,
+				A0C2D6061CEA6E8E00D75383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C2D6071CEA6E8E00D75383 /* Build configuration list for PBXNativeTarget "mtg-card-generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C2D6081CEA6E8E00D75383 /* Debug */,
+				A0C2D6091CEA6E8E00D75383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0C2D5FC1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0C2D5FD1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodel */,
+			);
+			currentVersion = A0C2D5FD1CEA6E8E00D75383 /* mtg_card_generator.xcdatamodel */;
+			path = mtg_card_generator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0C2D5EA1CEA6E8E00D75383 /* Project object */;
+}
