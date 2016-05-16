@@ -3,9 +3,11 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="beleren-bold-webfont.ttf">
+            <string>Beleren-Bold</string>
             <string>Beleren-Bold</string>
         </mutableArray>
     </customFonts>
@@ -65,7 +67,7 @@
                                         <color key="backgroundColor" red="0.98772035260000002" green="0.94670055809999998" blue="0.66145353169999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="cellImg" destination="i6p-VI-DLk" id="w2p-JK-NhE"/>
-                                            <outlet property="cellTitle" destination="hAc-ei-hAB" id="iBT-Wt-h0v"/>
+                                            <outlet property="cellName" destination="hAc-ei-hAB" id="ViM-gS-24a"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -106,8 +108,74 @@
                     <view key="view" contentMode="scaleToFill" id="bO4-Ay-bxD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CsA-O9-1pc">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Set Card Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3jk-bA-xIu">
+                                <rect key="frame" x="20" y="443" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CardFrameGold" translatesAutoresizingMaskIntoConstraints="NO" id="OWd-WA-ONX">
+                                <rect key="frame" x="156" y="90" width="289" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="289" id="DsW-56-vod"/>
+                                    <constraint firstAttribute="height" constant="335" id="x4c-iD-Q40"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuS-DU-HdZ">
+                                <rect key="frame" x="200" y="128" width="201" height="148"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="K9S-63-qDc"/>
+                                    <constraint firstAttribute="height" constant="148" id="jzf-gd-oQa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUj-Zq-7fu">
+                                <rect key="frame" x="258" y="498" width="84" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="VmX-nf-wuk"/>
+                                    <constraint firstAttribute="width" constant="84" id="fpk-JR-lls"/>
+                                </constraints>
+                                <state key="normal" title="Create Card">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HfE-jg-sPF">
+                                <rect key="frame" x="200" y="106" width="179" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="179" id="fLi-AB-9DH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="179" id="mdj-Kg-2g8"/>
+                                    <constraint firstAttribute="height" constant="21" id="qGX-db-x9X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Beleren-Bold" family="Beleren" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3jk-bA-xIu" firstAttribute="top" secondItem="OWd-WA-ONX" secondAttribute="bottom" constant="18" id="0DF-qT-Ztr"/>
+                            <constraint firstItem="TUj-Zq-7fu" firstAttribute="top" secondItem="3jk-bA-xIu" secondAttribute="bottom" constant="25" id="4g7-W2-eaN"/>
+                            <constraint firstItem="CsA-O9-1pc" firstAttribute="leading" secondItem="bO4-Ay-bxD" secondAttribute="leading" id="5bY-Ea-dKg"/>
+                            <constraint firstItem="HfE-jg-sPF" firstAttribute="top" secondItem="R1Q-ku-NX0" secondAttribute="bottom" constant="42" id="A4o-hz-UWS"/>
+                            <constraint firstItem="3jk-bA-xIu" firstAttribute="trailing" secondItem="bO4-Ay-bxD" secondAttribute="trailingMargin" id="BnQ-nU-l3v"/>
+                            <constraint firstItem="3jk-bA-xIu" firstAttribute="leading" secondItem="bO4-Ay-bxD" secondAttribute="leadingMargin" id="Dh4-RB-g4s"/>
+                            <constraint firstItem="3jk-bA-xIu" firstAttribute="centerX" secondItem="bO4-Ay-bxD" secondAttribute="centerX" id="Fqc-Cu-e4S"/>
+                            <constraint firstItem="vuS-DU-HdZ" firstAttribute="top" secondItem="R1Q-ku-NX0" secondAttribute="bottom" constant="64" id="SJA-8u-8EP"/>
+                            <constraint firstItem="OWd-WA-ONX" firstAttribute="top" secondItem="R1Q-ku-NX0" secondAttribute="bottom" constant="26" id="Wo0-1O-KO9"/>
+                            <constraint firstItem="TUj-Zq-7fu" firstAttribute="centerX" secondItem="bO4-Ay-bxD" secondAttribute="centerX" id="d4i-Hy-V1L"/>
+                            <constraint firstItem="vuS-DU-HdZ" firstAttribute="top" secondItem="HfE-jg-sPF" secondAttribute="bottom" constant="1" id="eRh-Cg-SA8"/>
+                            <constraint firstItem="CsA-O9-1pc" firstAttribute="top" secondItem="R1Q-ku-NX0" secondAttribute="bottom" id="iX9-85-vni"/>
+                            <constraint firstItem="OWd-WA-ONX" firstAttribute="centerX" secondItem="bO4-Ay-bxD" secondAttribute="centerX" id="ieE-xK-MQa"/>
+                            <constraint firstAttribute="trailing" secondItem="CsA-O9-1pc" secondAttribute="trailing" id="mL5-au-4TZ"/>
+                            <constraint firstItem="vuS-DU-HdZ" firstAttribute="leading" secondItem="HfE-jg-sPF" secondAttribute="leading" id="qy0-oT-wbE"/>
+                            <constraint firstItem="Zyu-dC-jlm" firstAttribute="top" secondItem="CsA-O9-1pc" secondAttribute="bottom" id="wlR-L3-ZdE"/>
+                            <constraint firstItem="vuS-DU-HdZ" firstAttribute="centerX" secondItem="bO4-Ay-bxD" secondAttribute="centerX" id="x1O-uj-8o6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMo-sX-b4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -135,6 +203,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CardFrameGold" width="744" height="1039"/>
+        <image name="bg" width="3333" height="3333"/>
         <image name="card" width="223" height="310"/>
     </resources>
 </document>
