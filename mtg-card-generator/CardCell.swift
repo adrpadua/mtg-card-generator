@@ -19,6 +19,7 @@ class CardCell: UITableViewCell {
     }
     
     func configureCell(card: Card) {
+        print("configured")
         cellName.text = card.name
     }
 
